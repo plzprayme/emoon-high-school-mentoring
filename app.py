@@ -4,10 +4,10 @@ from bs4 import BeautifulSoup
 # 검색하기
 # url = https://www.daangn.com/search/%EB%85%B8%ED%8A%B8%EB%B6%81
 url = 'https://www.daangn.com/search/'
-target = input(">> 검색하고 싶은 물품을 입력해주세요: ")
+keyword = input(">> 검색하고 싶은 물품을 입력해주세요: ")
 
 # 검색 결과 가져오기
-response = requests.get(url + target)
+response = requests.get(url + keyword)
 
 # 성공 했을 때만 실행
 if response.status_code == 200:
