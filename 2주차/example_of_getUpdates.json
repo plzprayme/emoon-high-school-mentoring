@@ -1,0 +1,38 @@
+
+{
+    'update_id': 111111111,
+    'message': {
+        'message_id': 1, 
+        'date': 11111111111, 
+        'chat': {
+            'id': 111111111, 
+            'type': 'private', 
+            'username': '1111111', 
+            'first_name': '111', 
+            'last_name': '1111'
+        }, 
+        'text': '/start', 
+        'entities': [
+            {
+            'type': '111111111', 
+            'offset': 0, 
+            'length': 6
+            }
+        ], 
+        'caption_entities': [], 
+        'photo': [], 
+        'new_chat_members': [], 
+        'new_chat_photo': [], 
+        'delete_chat_photo': False, 
+        'group_chat_created': False, 
+        'supergroup_chat_created': False, 
+        'channel_chat_created': False, 
+        'from': {
+            'id': 111111111, 
+            'first_name': '1111', 
+            'is_bot': False, 
+            'last_name': '11111', 
+            'username': '111111111'
+        }
+    }
+}
